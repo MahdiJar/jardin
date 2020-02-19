@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxmljardin.ListeDemandeController">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="165.0" layoutY="16.0" text="Liste Des Demandes">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+      <ListView fx:id="lstDemande" layoutX="27.0" layoutY="73.0" prefHeight="283.0" prefWidth="547.0" />
+      <ImageView fx:id="imghome" fitHeight="50.0" fitWidth="50.0" layoutX="509.0" layoutY="14.0" onMouseClicked="#gohome" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="imgreturn" fitHeight="50.0" fitWidth="50.0" layoutX="27.0" layoutY="23.0" onMouseClicked="#retour" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>
